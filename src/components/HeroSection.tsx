@@ -7,21 +7,21 @@ export default function HeroSection() {
     <section className="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-20 text-center">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
-          <h1 className="text-5xl font-bold">Hi, I'm Ibrahim!</h1>
+          <h1 className="text-5xl font-bold">Hi, I&rsquo;m Ibrahim!</h1>
           <p className="mt-4 text-xl font-bold">
             Researcher | Full-Stack Developer | AI Enthusiast | WordPress Expert
             & Core Contributor
           </p>
 
           <p className="mt-4 text-lg mr-10">
-            I have 6 years of experience in the Web development domain.I'm one
-            of the Core Contributors of WordPress. I worked in multiple roles
-            like backend & frontend both, plugin and theme development. Also, I
-            have strong problem-solving abilities and proficiency in programming
-            languages such as PHP, MySQL, and JavaScript. I developed many
-            WooCommerce add-ons and WooCommerce , shopify websites. Also, I have
-            research experience and strong interest in the field of AI and
-            Machine Learning.
+            I have 6 years of experience in the Web development domain.I&rsquo;m
+            one of the Core Contributors of WordPress. I worked in multiple
+            roles like backend & frontend both, plugin and theme development.
+            Also, I have strong problem-solving abilities and proficiency in
+            programming languages such as PHP, MySQL, and JavaScript. I
+            developed many WooCommerce add-ons and WooCommerce , shopify
+            websites. Also, I have research experience and strong interest in
+            the field of AI and Machine Learning.
           </p>
 
           <a

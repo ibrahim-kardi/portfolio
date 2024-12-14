@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="bg-gray-800 text-white p-4">
       <nav className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">Ibrahim's Portfolio</h1>
+        <h1 className="text-xl font-bold">Ibrahim&rsquo;s Portfolio</h1>
         <ul className="flex space-x-4">
           <li>
             <Link href="/">Home</Link>

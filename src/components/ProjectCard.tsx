@@ -1,9 +1,18 @@
 // components/ProjectCard.js
 import Image from "next/image";
+import Link from "next/link";
 
-export default function ProjectCard({ title, imgSrc, link }) {
+export default function ProjectCard({
+  title,
+  imgSrc,
+  link,
+}: {
+  title: string;
+  imgSrc: string;
+  link: string;
+}) {
   return (
-    <a
+    <Link
       href={link}
       target="_blank"
       rel="noopener noreferrer"
@@ -21,6 +30,6 @@ export default function ProjectCard({ title, imgSrc, link }) {
       <div className="p-4">
         <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
       </div>
-    </a>
+    </Link>
   );
 }

@@ -6,17 +6,17 @@ import portfolio from "../../public/project4.png";
 const projects = [
   {
     title: "E-commerce Store",
-    imgSrc: ecomerce,
+    imgSrc: ecomerce.src,
     link: "https://mouseonestore.myshopify.com/",
   },
   {
     title: "Project management system",
-    imgSrc: project,
+    imgSrc: project.src,
     link: "https://taskmanager-live.vercel.app/",
   },
   {
     title: "Company Website",
-    imgSrc: portfolio,
+    imgSrc: portfolio.src,
     link: "https://www.buddyboss.com/pricing/",
   },
 ];
